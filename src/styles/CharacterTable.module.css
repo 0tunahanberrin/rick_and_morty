@@ -1,0 +1,42 @@
+.characterTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: #4CAF50; 
+  border: 2px solid #4CAF50; 
+  color: #2E7D32; 
+}
+
+.characterTable th,
+.characterTable td {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: left;
+}
+
+.characterTable th {
+  background-color: #388E3C; 
+  font-weight: bold;
+  color: #FFFFFF; 
+}
+
+.characterTable tr {
+  transition: background-color 0.3s;
+}
+
+.characterTable tr:hover {
+  background-color: #81C784; 
+  cursor: pointer;
+}
+
+.characterTable tr:nth-child(even) {
+  background-color: #81C784;}
+
+.characterTable td:nth-child(even) {
+  background-color: #A5D6A7; 
+  color: #1B5E20; 
+}
