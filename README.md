@@ -1,0 +1,1 @@
+This project showcases my frontend skills using React, integrating filtering, sorting, and pagination features with data fetched from the Rick and Morty API. The interface includes a table with at least 250 rows, error handling for API requests, and a detailed view for selected characters.
