@@ -1,0 +1,37 @@
+.characterDetail {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #81C784; 
+  border: 2px solid #388E3C; 
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#3A506B; 
+}
+
+.characterDetail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #0a4d3d; 
+}
+
+.characterDetail p {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: left;
+  color: #2E7D32; 
+}
+
+.characterDetail img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

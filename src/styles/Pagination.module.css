@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 10px 16px;
+  margin: 5px; 
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #81C784;
+  background-color: #81C784;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+}
+
+.buttonActive {
+  background-color: #4CAF50;
+  color: #fff;
+  border-color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+
+  .button {
+    margin: 5px;
+  }
+}
